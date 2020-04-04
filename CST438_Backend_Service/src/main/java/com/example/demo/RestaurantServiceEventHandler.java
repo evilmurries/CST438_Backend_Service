@@ -1,14 +1,14 @@
-package cst438hw2;
+package com.example.demo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 @RabbitListener(queues = "restaurant-service-q1")
-public class ReservationEventHandler {
+public class RestaurantServiceEventHandler {
 
 	private static final Logger log = 
-          LoggerFactory.getLogger(ReservationEventHandler.class);
+          LoggerFactory.getLogger(RestaurantServiceEventHandler.class);
 
 	@RabbitHandler
 	public void receive(String in) {

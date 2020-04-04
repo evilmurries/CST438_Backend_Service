@@ -1,4 +1,4 @@
-package cst438hw2;
+package com.example.demo;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -24,7 +24,7 @@ public class ConfigReceiver {
 		return BindingBuilder.bind(queue1).to(fanout);
 	}
 	@Bean
-	public ReservationEventHandler receiver() {
-		return new ReservationEventHandler();
+	public RestaurantServiceEventHandler receiver() {
+		return new RestaurantServiceEventHandler();
 	}
 }
