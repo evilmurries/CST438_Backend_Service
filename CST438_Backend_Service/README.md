@@ -7,9 +7,9 @@ database.
 
 Libera was developed by:
 
-Wais Robleh
-Christopher Piwarski
-Mark Mariscal
+* Wais Robleh
+* Christopher Piwarski
+* Mark Mariscal
 
 
 ## Usage
