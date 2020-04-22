@@ -5,6 +5,13 @@ microservices. Backend service is primarily a RabbitMq microservice that
 receives responses from order service. It houses these messages in a message
 database.
 
+Libera was developed by:
+
+Wais Robleh
+Christopher Piwarski
+Mark Mariscal
+
+
 ## Usage
 
 * The backend microservice should be ran after running order microservice.
